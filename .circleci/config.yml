@@ -9,7 +9,7 @@ jobs:
     steps:
     #Step1 : Obtain repo from Github
       - checkout
-    #Step2 : create virtualenv and install dependencies
+    #Step 2 : create virtualenv and install dependencies
       - run:
           name:
           command: |
